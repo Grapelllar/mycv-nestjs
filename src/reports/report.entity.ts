@@ -7,4 +7,7 @@ export class Report{
 
     @Column()
     price: number;
+
+    // @Column()
+    // testaaa: number;
 }

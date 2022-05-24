@@ -1,26 +1,26 @@
 ### Create a new user
-POST http://localhost:3000/auth/signup
+POST http://localhost:3000/auth/signin
 Content-type: application/json
 
 {
-    "email": "3192703130@qq.com",
+    "email": "319271103130@qq.com",
     "password": "3192703130"
 }
 
 ### Find a particular user with a given ID
-GET http://localhost:3000/auth/18
+GET http://localhost:3000/auth/25
 
 ### Find all users with a given email
 GET http://localhost:3000/auth?email=3192703130@qq.com
 
 ### Update a user
-PATCH http://localhost:3000/auth/13
+PATCH http://localhost:3000/auth/24
 Content-type: application/json
 
 {
-    "email": "aabbbaaa@aaaa.com",
-    "password": "123456"
+    "email": "mhj@qq.com",
+    "password": "000000"
 }
 
 ### Delete a user given id
-DELETE http://localhost:3000/auth/21
+DELETE http://localhost:3000/auth/24
